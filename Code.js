@@ -36,6 +36,10 @@ function importData (){
   return result = callLibraryFunction('importData');
 }
 
+function checkWatchListPriceAlerts (){
+  return result = callLibraryFunction('checkWatchListPriceAlerts');
+}
+
 function onOpen() {
   addCustomMenu();
 }
