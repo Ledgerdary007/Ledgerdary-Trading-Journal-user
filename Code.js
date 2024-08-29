@@ -42,10 +42,25 @@ function checkWatchListPriceAlerts (){
 
 function onOpen() {
   addCustomMenu();
+  setDefaultSheet();
+  setDefaultReportSearch();
+  updateTopMoversDashboard(); //Update the Top Movers on the Summary Sheet
 }
 
 function addCustomMenu() {
   result = callLibraryFunction('addCustomMenu');
+}
+
+function setDefaultSheet() {
+  result = callLibraryFunction('setDefaultSheet');
+}
+
+function setDefaultReportSearch() {
+  result = callLibraryFunction('setDefaultReportSearch');
+}
+
+function updateTopMoversDashboard() {
+  result = callLibraryFunction('updateTopMoversDashboard');
 }
 
 function changeTheme() {
@@ -99,6 +114,11 @@ function openCryptoPerpJournal() {
 function openStockSpotJournal() {
   result = callLibraryFunction('openStockSpotJournal'); 
 }
+
+function openStockMarginJournal() {
+  result = callLibraryFunction('openStockMarginJournal'); 
+}
+
 
 function openOptionJournal() {
   result = callLibraryFunction('openOptionJournal'); 
