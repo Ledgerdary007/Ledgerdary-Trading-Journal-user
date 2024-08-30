@@ -28,8 +28,8 @@ function testsetCurrencyTo() {
   return result = callLibraryFunction('setCurrencyToEUR');
 }
 
-function exportDataToNewSpreadsheet (){
-  return result = callLibraryFunction('exportDataToNewSpreadsheet');
+function ExportDataToNewSpreadsheet (){
+  return result = callLibraryFunction('ExportDataToNewSpreadsheet');
 }
 
 function importData (){
