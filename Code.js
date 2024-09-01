@@ -32,6 +32,10 @@ function exportDataToNewSpreadsheet (){
   return result = callLibraryFunction('exportDataToNewSpreadsheet');
 }
 
+function ExportDataToNewSpreadsheet (){
+  return result = callLibraryFunction('ExportDataToNewSpreadsheet');
+}
+
 function importData (){
   return result = callLibraryFunction('importData');
 }
