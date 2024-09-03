@@ -87,10 +87,6 @@ function editExchanges() {
   result = callLibraryFunction('editExchanges'); 
 }
 
-function openWhereToStart() {
-  result = callLibraryFunction('openWhereToStart'); 
-}
-
 function openSummaryDashboard() {
   result = callLibraryFunction('openSummaryDashboard'); 
 }
@@ -124,8 +120,8 @@ function openStockMarginJournal() {
 }
 
 
-function openOptionJournal() {
-  result = callLibraryFunction('openOptionJournal'); 
+function openOptionTradingJournal() {
+  result = callLibraryFunction('openOptionTradingJournal'); 
 }
 
 function openTradingDashboard() {
