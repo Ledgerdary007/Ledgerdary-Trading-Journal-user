@@ -160,6 +160,11 @@ function openHelpLink() {
   result = callLibraryFunction('openHelpLink'); 
 }
 
+function openFixData() {
+  result = callLibraryFunction('openFixData'); 
+}
+
+
 function hideTotal() {
   result = callLibraryFunction('hideTotal'); 
 }
