@@ -79,12 +79,28 @@ function editGoal() {
   result = callLibraryFunction('editGoal'); 
 }
 
+function enableMarketData() {
+  result = callLibraryFunction('enableMarketData'); 
+}
+
 function editNotifications() {
   result = callLibraryFunction('editNotifications'); 
 }
 
 function editExchanges() {
   result = callLibraryFunction('editExchanges'); 
+}
+
+function editDateFormat() {
+  result = callLibraryFunction('editDateFormat'); 
+}
+
+function editDateSheet() {
+  result = callLibraryFunction('editDateSheet'); 
+}
+
+function editHideTotal() {
+  result = callLibraryFunction('editHideTotal'); 
 }
 
 function openSummaryDashboard() {
@@ -207,4 +223,8 @@ function setCurrencyToSGD() {
 
 function setCurrencyToMYR() {
   result = callLibraryFunction('setCurrencyToMYR');
+}
+
+function editStrategies(){
+  result = callLibraryFunction('editStrategies');
 }
