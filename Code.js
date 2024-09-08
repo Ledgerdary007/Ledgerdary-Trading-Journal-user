@@ -223,3 +223,11 @@ function setCurrencyToMYR() {
 function editStrategies(){
   result = callLibraryFunction('editStrategies');
 }
+
+function openStocksMarket() {
+  result = callLibraryFunction('openStocksMarket'); 
+}
+
+function openCryptoMarket() {
+  result = callLibraryFunction('openCryptoMarket'); 
+}
