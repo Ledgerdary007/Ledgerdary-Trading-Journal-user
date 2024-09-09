@@ -67,10 +67,6 @@ function updateTopMoversDashboard() {
   result = callLibraryFunction('updateTopMoversDashboard');
 }
 
-function changeTheme() {
-  result = callLibraryFunction('changeTheme'); 
-}
-
 function editCurrency() {
   result = callLibraryFunction('editCurrency'); 
 }
@@ -162,6 +158,14 @@ function openPortfolio() {
 
 function openRoadmap() {
   result = callLibraryFunction('openRoadmap'); 
+}
+
+function openCryptoWatchlist() {
+  result = callLibraryFunction('openCryptoWatchlist'); 
+}
+
+function openStocksWatchlist() {
+  result = callLibraryFunction('openStocksWatchlist'); 
 }
 
 function openImportData() {
