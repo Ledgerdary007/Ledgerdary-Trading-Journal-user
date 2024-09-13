@@ -45,10 +45,10 @@ function checkWatchListPriceAlerts (){
 }
 
 function onOpen() {
-  addCustomMenu();
   setDefaultSheet();
   setDefaultReportSearch();
   updateTopMoversDashboard(); //Update the Top Movers on the Summary Sheet
+  addCustomMenu();
 }
 
 function addCustomMenu() {
@@ -234,4 +234,44 @@ function openStocksMarket() {
 
 function openCryptoMarket() {
   result = callLibraryFunction('openCryptoMarket'); 
+}
+
+function editLabels() {
+  result = callLibraryFunction('editLabels'); 
+}
+
+function setThemeToBlueSky(){
+  result = callLibraryFunction('setThemeToBlueSky'); 
+}
+
+function setThemeToRedWine(){
+  result = callLibraryFunction('setThemeToRedWine'); 
+}
+
+function setThemeToSandyBeach(){
+  result = callLibraryFunction('setThemeToSandyBeach'); 
+}
+
+function setThemeToGreySky(){
+  result = callLibraryFunction('setThemeToGreySky'); 
+}
+
+function setThemeToTurquoiseWaters(){
+  result = callLibraryFunction('setThemeToTurquoiseWaters'); 
+}
+
+function setThemeToBlueOcean(){
+  result = callLibraryFunction('setThemeToBlueOcean'); 
+}
+
+function setThemeToSunnyDay(){
+  result = callLibraryFunction('setThemeToSunnyDay'); 
+}
+
+function setThemeToPinkPanter(){
+  result = callLibraryFunction('setThemeToPinkPanter'); 
+}
+
+function setThemeToWhiteChrismas(){
+  result = callLibraryFunction('setThemeToWhiteChrismas'); 
 }
