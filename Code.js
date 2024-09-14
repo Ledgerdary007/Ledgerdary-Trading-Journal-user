@@ -75,6 +75,14 @@ function editGoal() {
   result = callLibraryFunction('editGoal'); 
 }
 
+function editDateFormat() {
+  result = callLibraryFunction('editDateFormat'); 
+}
+
+function editDefaultSheet() {
+  result = callLibraryFunction('editDefaultSheet'); 
+}
+
 function enableMarketData() {
   result = callLibraryFunction('enableMarketData'); 
 }
