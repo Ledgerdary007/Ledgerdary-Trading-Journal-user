@@ -24,10 +24,6 @@ function FIFORealizedProfitPercentage(positionID, sheetName) {
   return result = callLibraryFunction('FIFORealizedProfitPercentage', positionID, sheetName);
 }
 
-function testsetCurrencyTo() {
-  return result = callLibraryFunction('setCurrencyToEUR');
-}
-
 function exportDataToNewSpreadsheet (){
   return result = callLibraryFunction('exportDataToNewSpreadsheet');
 }
@@ -65,10 +61,6 @@ function setDefaultReportSearch() {
 
 function updateTopMoversDashboard() {
   result = callLibraryFunction('updateTopMoversDashboard');
-}
-
-function editCurrency() {
-  result = callLibraryFunction('editCurrency'); 
 }
 
 function editGoal() {
