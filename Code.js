@@ -228,6 +228,10 @@ function editStrategies(){
   result = callLibraryFunction('editStrategies');
 }
 
+function editSharingTrades(){
+  result = callLibraryFunction('editSharingTrades');
+}
+
 function openStocksMarket() {
   result = callLibraryFunction('openStocksMarket'); 
 }
