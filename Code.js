@@ -103,6 +103,15 @@ function openSummaryDashboard() {
   result = callLibraryFunction('openSummaryDashboard'); 
 }
 
+function openCryptoTAJournal() {
+  result = callLibraryFunction('openCryptoTAJournal'); 
+}
+
+function openStockTAJournal() {
+  result = callLibraryFunction('openStockTAJournal'); 
+}
+
+
 function openCryptoDashboard() {
   result = callLibraryFunction('openCryptoDashboard'); 
 }
