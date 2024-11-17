@@ -288,3 +288,15 @@ function setThemeToPinkPanter(){
 function setThemeToWhiteChrismas(){
   result = callLibraryFunction('setThemeToWhiteChrismas'); 
 }
+
+function setupAllTriggersStep1 (){
+  result = callLibraryFunction('setupAllTriggersStep1'); 
+}
+
+function setupAllTriggersStep2 (){
+  result = callLibraryFunction('setupAllTriggersStep2'); 
+}
+
+function setupAllTriggersStep3 (){
+  result = callLibraryFunction('setupAllTriggersStep3'); 
+}
